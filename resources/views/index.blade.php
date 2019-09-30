@@ -4,4 +4,5 @@
 @endsection
 
 @section("Content")
+<a href="{{url('/register')}}">ユーザ登録</a>
 @endsection
