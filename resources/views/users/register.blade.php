@@ -1,3 +1,4 @@
+@extends("layouts/view")
 @section("Title")
 ユーザ登録
 @endsection
