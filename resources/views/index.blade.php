@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Laravelサンプル</title>
-<meta charset="utf-8">
-</head>
-<body>
-<h1>トップページ</h1>
-</body>
-</html>
+@extends("layouts/view")
+@section("Title")
+トップページ
+@endsection
+
+@section("Content")
+<a href="{{url('/register')}}">ユーザ登録</a>
+@endsection
