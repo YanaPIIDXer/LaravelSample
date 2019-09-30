@@ -11,13 +11,6 @@
 |
 */
 
-// ↓デフォルトでは以下のコードが出力されている。
-//  不要なのでコメントアウト。
-/*
-Route::get('/', function () {
-    return view('welcome');
-});
-*/
-
-// ↓以下を追加。
 Route::get('/', 'TopController@index');
+
+Route::get("/register", 'UserController@register_index');
