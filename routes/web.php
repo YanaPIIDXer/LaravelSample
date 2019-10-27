@@ -14,3 +14,5 @@
 Route::get('/', 'TopController@index');
 
 Route::get("/register", 'UserController@register_index');
+// ↓追加
+Route::post("/user_register", "UserController@register");
