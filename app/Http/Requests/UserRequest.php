@@ -34,7 +34,7 @@ class UserRequest extends FormRequest
 
     // ↓追加。
     // エラー時に出力する文字列を設定。
-    public function message()
+    public function messages()
     {
         return [
             "user_id.required" => "ユーザＩＤを入力してください。",
